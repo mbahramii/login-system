@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     border: 0px;
     background-color: #0b1d3a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +18,7 @@ form{
     border-radius: 20px;
     width: 280px;
     max-width: 400px;
-    height: 425px;
+    height: 500px;
     text-align: start;
     color: rgb(255, 255, 255);
     box-shadow: 2px 4px 8px #1f4b94;
@@ -27,11 +27,10 @@ form{
 div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
 }
 label{
     font-size: 16px;
-    margin-bottom: 5px;
     text-align: start;
 }
 
@@ -41,7 +40,7 @@ button{
     height: 40px;
     font-size: 14px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 input{
@@ -50,6 +49,7 @@ input{
     color: black;
     border-radius: 8px;
     border: 3px solid #787878;
+    margin-top: 5px;
 }
 input:focus{
     border: 3px solid #b42020;
@@ -60,4 +60,11 @@ a{
 
 a:hover{
     color: rgb(26, 46, 79);
+}
+
+p{
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20px;
 }
