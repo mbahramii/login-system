@@ -8,30 +8,37 @@
  </head>
  <body>
     <h2>Sign-up</h2>
-    <form action="">
+    <form id="loginForm" action="">
         <div>
             <lable>username:</lable>
-            <input type="text" required>
+            <input id="username" type="text" required>
+            <p id="nameMessage"></p>
         </div>
         <div>
             <lable>Phone Number:</lable>
-            <input type="number" required>
+            <input id="phone" type="number" required>
+            <p id="phoneMessage"></p>
         </div>
         <div>
             <lable>Email:</lable>
-            <input type="email" required>
+            <input id="email" type="email" required>
+            <p id="emailMessage"></p>
         </div>
         <div>
             <lable>Password:</lable>
-            <input type="password" required>
+            <input id="password" type="password" required>
+            <p id="passwordMessage"></p>
         </div>
         <div>
             <lable>Confirm Password:</lable>
-            <input type="password" required>
+            <input id="confirmPassword" type="password" required>
+            <p id="passwordConfirmMessage"></p>
         </div>
         <div>
+            <p id="succesmessage"></p>
             <button type="submit">Create Account</button>
         </div>
     </form>
+    <script src="./signup.js"></script>
  </body>
  </html>
